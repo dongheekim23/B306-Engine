@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{d8450cb2-7bc6-45c0-b818-ed6f262a662e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{02802be1-08ea-4d11-8703-99ab864dfeb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{0e7f271b-7ab3-4aec-93b2-7af18e674bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{2da46c88-1799-455c-90b0-2fd0a1e01ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{992e553f-b9f3-43d4-b7a8-9c0f9751939f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message">
+      <UniqueIdentifier>{1e7d9d14-06b0-4f62-b22f-35b1775f067f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Space">
+      <UniqueIdentifier>{3051dd0b-f70f-42c4-8315-04e5a3f2ba97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{05ac9c99-b517-455d-af34-7c9cc2372c92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\ToeEngine\Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ToeEngine\Includes.h" />
+    <ClInclude Include="..\..\include\ToeEngine\Component.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ToeEngine\Entity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ToeEngine\System.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ToeEngine\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ToeEngine\Message.h">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ToeEngine\Space.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ToeEngine\WindowSDL.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\ToeEngine\Core.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ToeEngine\Entity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ToeEngine\Space.cpp">
+      <Filter>Space</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ToeEngine\WindowSDL.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ToeEngine\Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
